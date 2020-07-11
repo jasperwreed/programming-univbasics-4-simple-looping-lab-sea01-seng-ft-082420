@@ -33,4 +33,9 @@ def return_string_array(array)
   newarray = []
   
   while counter < array.length do
-    newarray
+    newarray.push(array[count].to_s)
+    count += 1
+  end
+  newarray
+end
+
